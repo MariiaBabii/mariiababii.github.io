@@ -1,0 +1,18 @@
+@mixin background-property ($p, $r, $s){
+    background-position: $p;
+    background-repeat: $r;
+    background-size: $s;
+}
+@mixin font ($f, $s, $w, $c, $h, $ta){
+    font-family: $f;
+    font-size: $s;
+    font-weight: $w;
+    color: $c;
+    line-height: $h;
+    text-align: $ta;
+}
+@mixin  display-flex ($f, $j, $a) {
+    display: $f;
+    justify-content: $j;
+    align-items: $a;
+}
